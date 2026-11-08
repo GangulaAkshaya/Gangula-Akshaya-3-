@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gangula Akshaya | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- WELCOME SCREEN -->
+    <section id="welcomeScreen">
+        <div class="welcome-container">
+            <h1 class="side-heading active">ABOUT ME</h1>
+            <h1 class="side-heading">PROJECTS</h1>
+            <h1 class="side-heading">RESUME</h1>
+            <h1 class="side-heading">TECHNICAL SKILLS</h1>
+            <h1 class="side-heading">EDUCATION</h1>
+            <h1 class="side-heading">CERTIFICATIONS</h1>
+            <h1 class="side-heading">CONTACT</h1>
+
+            <button id="startButton" onclick="openPortfolio()">
+                LET'S START →
+            </button>
+        </div>
+    </section>
+
+
+    <!-- COMPLETE PORTFOLIO CONTENT -->
+    <main id="portfolioContent">
+
+        <!-- NAVBAR -->
+        <header>
+            <h2>AK.</h2>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#resume">Resume</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#certifications">Certifications</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+
+        <!-- HOME -->
+        <section id="home" class="hero">
+            <div>
+                <p>WELCOME TO MY PORTFOLIO</p>
+                <h1>Hi, I'm <span>Gangula Akshaya</span></h1>
+                <h2>Aspiring Software Developer</h2>
+
+                <p>
+                    Computer Science and Engineering student passionate
+                    about Java development, databases and software development.
+                </p>
+
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+
+            <div class="profile">
+                <img src="assets/profile.jpg" alt="Akshaya Professional Photo">
+            </div>
+        </section>
+
+
+        <!-- ABOUT ME -->
+        <section id="about" class="section">
+            <h1>About Me</h1>
+
+            <p>
+                I am Gangula Akshaya, pursuing B.Tech in Computer Science
+                and Engineering at QIS College of Engineering and Technology,
+                Ongole. I am interested in Java programming, database
+                management and developing real-world applications.
+                My goal is to get a job in a reputed company and improve
+                my technical and communication skills.
+            </p>
+
+            <p><b>Location:</b> Enugupalem, Andhra Pradesh, India</p>
+            <p><b>Graduation Year:</b> 2027</p>
+            <p><b>Languages:</b> English, Telugu, Hindi</p>
+            <p><b>Hobbies:</b> Surfing Internet, Documentation</p>
+        </section>
+
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section">
+            <h1>My Projects</h1>
+
+            <div class="project-card">
+                <h2>Student Management System</h2>
+                <p>
+                    A Java-based academic project using JDBC, SQL and MySQL
+                    for working with student information and database connectivity.
+                </p>
+                <p><b>Technologies:</b> Java, JDBC, SQL, MySQL</p>
+            </div>
+
+            <div class="project-card">
+                <h2>Low Cost Footstep Energy Generator for Rural Applications</h2>
+                <p>
+                    An educational prototype that uses piezoelectric sensors
+                    to convert footstep pressure into small amounts of
+                    electrical energy. The circuit uses a rectifier and
+                    temporary energy storage components.
+                </p>
+                <p><b>Technologies:</b> Piezoelectric Sensors, Electronics</p>
+            </div>
+        </section>
+
+
+        <!-- RESUME -->
+        <section id="resume" class="section">
+            <h1>Resume</h1>
+
+            <p>
+                Download my resume to know more about my education,
+                technical skills, certifications and projects.
+            </p>
+
+            <a href="assets/Gangula_Akshaya_Resume.pdf"
+               target="_blank" class="btn">
+                Download Resume
+            </a>
+        </section>
+
+
+        <!-- TECHNICAL SKILLS -->
+        <section id="skills" class="section">
+            <h1>Technical Skills</h1>
+
+            <div class="skills">
+                <span>C</span>
+                <span>Java</span>
+                <span>JDBC</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>SQL</span>
+                <span>MySQL</span>
+            </div>
+
+            <h2>Soft Skills</h2>
+
+            <div class="skills">
+                <span>Communication</span>
+                <span>Teamwork</span>
+                <span>Time Management</span>
+                <span>Willingness to Learn</span>
+                <span>Documentation</span>
+                <span>Internet Research</span>
+            </div>
+        </section>
+
+
+        <!-- EDUCATION -->
+        <section id="education" class="section">
+            <h1>Education</h1>
+
+            <div class="education-card">
+                <h2>B.Tech – Computer Science and Engineering</h2>
+                <p>QIS College of Engineering and Technology, Ongole</p>
+                <p>2023 – 2027</p>
+                <p>CGPA: 8.0</p>
+            </div>
+
+            <div class="education-card">
+                <h2>Intermediate – MPC</h2>
+                <p>Vagdevi Junior College, Narasaraopet</p>
+                <p>2021 – 2023</p>
+                <p>Percentage: 87%</p>
+            </div>
+
+            <div class="education-card">
+                <h2>SSC</h2>
+                <p>ZPHS High School, Nagulavaram</p>
+                <p>2020 – 2021</p>
+                <p>Percentage: 98%</p>
+            </div>
+        </section>
+
+
+        <!-- CERTIFICATIONS -->
+        <section id="certifications" class="section">
+            <h1>Certifications</h1>
+
+            <div class="project-card">
+                <h2>Java Full Stack Developer</h2>
+                <p>Edu Skills – June 2025</p>
+            </div>
+
+            <div class="project-card">
+                <h2>Java Developer</h2>
+                <p>Infosys Springboard – May 2026</p>
+            </div>
+        </section>
+
+
+        <!-- CONTACT -->
+        <section id="contact" class="section">
+            <h1>Contact Me</h1>
+
+            <p>Email: gangulaakshaya49@gmail.com</p>
+            <p>Phone: 9063959822</p>
+
+            <p>
+                GitHub:
+                <a href="https://github.com/GangulaAkshaya" target="_blank">
+                    Visit GitHub
+                </a>
+            </p>
+
+            <p>
+                LinkedIn:
+                <a href="https://www.linkedin.com/in/akshaya-gangula"
+                   target="_blank">
+                    Visit LinkedIn
+                </a>
+            </p>
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer>
+            <p>© 2026 Gangula Akshaya. All Rights Reserved.</p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
